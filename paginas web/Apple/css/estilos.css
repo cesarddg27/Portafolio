@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Tajawal', sans-serif;
+}
+/*HEADER*/
+header{
+	width: 100%;
+	height: 230px;
+	background-image: url("../imagenes/fondo blanco opaco.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+header img {
+	margin-top: 20px;
+	width: 80px;
+}
+h1 {
+	font-size: 50px;
+}
+/*BARRA DE NAVEGACION*/
+nav {
+	background-color: #444;
+	text-align: left;
+	position: sticky;
+	top: 0;
+	margin-bottom: 15px;
+}
+
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 10px 30px;
+	display: block;
+}
+.principal {
+	text-align: justify;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.principal h2 {
+	font-size: 35px;
+}
+.principal .imagenes {
+	width: 40%;
+}
+.principal .icono {
+	width: 15%;
+}
+.redes {
+	width: 40px;
+}
+.social {
+	position: fixed;
+	left: 0.5%;
+	bottom: 25%;
+	z-index: 2000;
+}
+.social ul {
+	list-style: none;
+}
+.social ul li a {
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+.ancla {
+	width: 40px;
+}
+.boton {
+	position: fixed;
+	right: 0.5%;
+	bottom: 0.5%;
+	z-index: 2000;
+}
+.boton a {
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+footer {
+	margin-top: 15px;
+	color: #ddd;
+	background-color: #444;
+}

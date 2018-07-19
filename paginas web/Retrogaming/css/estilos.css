@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+/*HEADER*/
+header{
+	width: 100%;
+	height: 300px;
+	background-image: url("../imagenes/fondo.jpg");
+	color: #fff;
+}
+header img {
+	margin-top: 10px;
+	width: 150px;
+	border-radius: 50%;
+}
+h1 {
+	font-size: 50px;
+}
+/*BARRA DE NAVEGACION*/
+nav {
+	background-color: #444;
+	text-align: left;
+	position: sticky;
+	top: 0;
+	margin-bottom: 15px;
+	font-size: 23px;
+}
+
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 5px 15px;
+	display: block;
+
+}
+nav ul li a img{
+	width: 40px;
+	border-radius: 50%;
+}
+.logo {
+	margin-left: 180px;
+}
+.banner {
+	width: 728px;
+	height: 300px;
+	margin: auto;
+
+	background-image: url(../imagenes/banner3.jpg);
+
+	animation: banner 12s infinite;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../imagenes/parallax1.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../imagenes/parallax2.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes banner {
+	0%, 29% {
+		background-image: url(../imagenes/banner3.jpg);
+		opacity: 1;
+	}
+	30%, 32%;
+	{
+		opacity: 0.5;
+	}
+
+	33%, 62% {
+		background-image: url(../imagenes/banner4.jpg);
+		opacity: 1;	
+	}
+	63%, 67%;
+	{
+		opacity: 0.5;
+	}
+	68%, 97% {
+		background-image: url(../imagenes/banner5.jpg);
+		opacity: 1;
+	}
+	98%, 100%;
+	{
+		opacity: 0.5;
+	}
+}
+.banner1 {
+	position: fixed;
+	top: 15px;
+	left: 10px;
+}
+.banner2 {
+	position: fixed;
+	top: 15px;
+	right: 10px;
+}
+
+.contenedor {
+	margin-top: 20px;
+	width: 950px;
+}
+article p {
+	text-align: justify;
+	font-size: 23px;
+}
+article img {
+	width: 400px;
+}
+footer {
+	margin-top: 15px;
+	color: #ddd;
+	background-color: #444;
+}
